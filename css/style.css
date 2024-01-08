@@ -28,7 +28,7 @@ a{
 
 nav{
     
-    width: 100%;
+    width: 100vw;
     height: 5em;
     position: fixed;
     top: 0;
@@ -1003,6 +1003,9 @@ form *:focus-visible{
     .sl3-3 {
         font-weight: 300 !important;
         font-size: 1.9rem !important;
+    }
+    body{
+        overflow-x: hidden;
     }
   }
 
