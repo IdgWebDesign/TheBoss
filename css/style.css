@@ -619,7 +619,7 @@ form *:focus-visible{
 
 }
 
-.contactMethods p{
+.contactMethods p, .contactMethods a p{
     display: flex;
     align-items: center;
     color: #a17818;
@@ -627,14 +627,14 @@ form *:focus-visible{
     font-family: 'Acumin';
 }
 
-.contactMethods p span img{
+.contactMethods p span img ,.contactMethods a p span img{
     width: 1.5em ;
     height: 1.5em;
     object-fit: contain;
     
 }
 
-.contactMethods p span{
+.contactMethods p span, .contactMethods a p span{
     margin-right: 1%;
 }
 
@@ -700,7 +700,7 @@ form *:focus-visible{
     .button-80{
         padding: 0.775rem 2.125rem;
     }
-    .contactMethods p {
+    .contactMethods p, .contactMethods a p {
         font-size: 1.2em;
     }
     .contentContact h2 {   
@@ -741,7 +741,7 @@ form *:focus-visible{
     .button-80{
         padding: 0.775rem 2.125rem;
     }
-    .contactMethods p {
+    .contactMethods p, .contactMethods a p {
         font-size: 1.2em;
     }
     
@@ -851,7 +851,7 @@ form *:focus-visible{
     .contentContact h2 {   
         font-size: 6em;
     }
-    .contactMethods p {
+    .contactMethods p, .contactMethods a p {
         font-size: 1.1em;
     }
     form input, form textarea {
@@ -1056,7 +1056,7 @@ form *:focus-visible{
     .button-80{
         font-size: 0.9em;
     }
-    .contactMethods p {
+    .contactMethods p, .contactMethods a p {
         font-size: 1em;
     }
   }
