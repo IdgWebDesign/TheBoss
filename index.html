@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title></title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+        <nav id="navbar">
+            <div class="rowNav">
+                <div class="items">
+                    <a href="#empresa">Empresa</a>
+                    <a href="#productos">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                    
+                    
+                </div>
+
+                <button id="opener" class="menu__icon">
+                    <span></span>
+                    <span></span>
+                    
+                </button>
+                
+
+                <div id="logo" class="logo">
+                    <img src="./img/logo.png" alt="">
+                    <h1><span>The Boss</span> Management</h1>
+                </div>
+            </div>
+        </nav>
+        <div id="invMenu" class="wrappedItems">
+            <img id="closer" src="./img/cross.png" alt="">
+            <a class="closerMenu" href="#empresa">Empresa</a>
+            <a class="closerMenu" href="#productos">Servicios</a>
+            <a class="closerMenu" href="#contacto">Contacto</a>
+        </div>
+
+        <section id="inicio">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide b2">
+                        <div class="bannerText">
+                            <img src="./img/banner_02txt.png" style="" alt="">
+                            <p>
+                                The Boss <br>
+                                Property <br>
+                                Management <br>
+                                <span>
+                                    lo soluciona <br>
+                                    por ti.
+                                </span>
+                            </p>
+                        </div>
+                        <img class="paintingGuy" src="./img/banner_02figure.png" alt="">
+                        
+                    </div>
+                    <div class="swiper-slide b1">
+                        <div class="bannerText">
+                            <img src="./img/banner_01txt.png" alt="">
+                            <p>
+                                ¿Tienes una <br>
+                                propiedad y <br>
+                                estás cansado <br>
+                                de manejarla? <br>
+                                <span>
+                                Llegaste al <br>
+                                lugar indicado 
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide b3">
+                        <div class="bannerText">
+                            <img src="./img/banner_01txt.png" alt="">
+                            <div style="z-index: 99;">
+                                <p>
+                                    <span class="sl3-1">
+                                        24 hs <br>
+                                    </span>
+                                    <span class="sl3-2">
+                                        on call <br>
+                                        services <br>
+                                    </span>
+                                    
+                                </p>
+                                <p class="sl3-3">
+                                    Garantizamos la <br>
+                                    tranquilidad de <br>
+                                    nuestros usuarios.
+                                </p>
+                            </div>  
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+
+        </section>
+
+        <section id="empresa">
+            <img src="./img/empresa_bgfigure.png" class="figureEmpresa" alt="">
+            <div data-aos="fade-right"  class="line"></div>
+            <div data-aos="fade-right"  class="line" style="top: 60%;"></div>
+            <div class="rowEmpresa">
+                <div class="textEmpresa">
+                    <h2 data-aos-delay="300" data-aos-duration="1000" data-aos="fade-right">Empresa</h2>
+                    <p data-aos-delay="500" data-aos-duration="1000" data-aos="fade-right">Soluciones integrales y ajustadas a las necesidades específicas de cada cliente. <br>
+                      <span>  En The Boss Property Management contamos con un equipo multidisciplinario que garantiza la eficiencia y transparencia en cada servicio que ofrecemos.</span></p>
+                </div>
+                <img data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" id="imgEmpresa" src="./img/workers.png">
+            </div>
+
+            <div class="rowEmpresa">
+                <div class="textEmpresa">
+                    <h2 data-aos-delay="300" data-aos-duration="1000" data-aos="fade-right" class="frMobile">Servicios</h2>
+                    <p data-aos-delay="500" data-aos-duration="1000" data-aos="fade-right">Una vez que el cliente solicita el presupuesto, nuestro equipo procede a hacer el diagnóstico real y técnico, se selecciona a los profesionales que llevarán a cabo las tareas y ejecutamos el plan de trabajo en los 
+                        tiempos acordados. <br>
+                      <span>  Ponemos a tu disposición: </span></p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="productos">
+            <div class="rowProductos right">
+                <img  data-aos-delay="800" data-aos-duration="1000" data-aos="fade-left" class="houseKeeping" src="./img/housekeeping.png" alt="">
+                <img data-aos-delay="1100" data-aos-duration="1000" data-aos="zoom-in" class="houseButton buttons" src="./img/housekeeping_button.png" alt="">
+                <img data-aos-duration="1000" data-aos="fade-right" class="mantenimiento" src="./img/mantenimiento.png" alt="">
+                <img data-aos-delay="300" data-aos-duration="1000" data-aos="zoom-in" class="mantButton buttons" src="./img/mantenimiento_button.png" alt="">
+            </div>
+
+            <div class="rowProductos">
+                <img data-aos-duration="1000" data-aos="fade-right" class="piscinas" src="./img/piscinas.png" alt="">
+                <img data-aos-delay="300" data-aos-duration="1000" data-aos="zoom-in" class="piscinasButton buttons" src="./img/piscinas_button.png" alt="">
+                <div data-aos-delay="800" data-aos-duration="1000" data-aos="fade-left" class="edificios" > 
+                    <img src="./img/edificios2.png" alt="">
+                    <img data-aos-delay="1100" data-aos-duration="1000" data-aos="zoom-in" class="edificiosButton buttons" src="./img/edificios_button.png" alt="">
+                </div>
+            </div>
+            <div class="rowProductos">
+                <img data-aos-delay="800" data-aos-duration="1000" data-aos="fade-right" class="reservations" src="./img/reservations.png" alt="">
+                <img data-aos-delay="1100" data-aos-duration="1000" data-aos="zoom-in" class="reservationsButton buttons" src="./img/reservations_button.png" alt="">
+                <div class="airbnb" >
+                    <img data-aos-duration="1000" data-aos="fade-left"  class="bgAirbnb" src="./img/airnbn.png" alt="">
+                    <img data-aos-duration="1000" data-aos="fade-left"  class="figureAirbnb" src="./img/airnbn2.png" alt="">
+                    <img data-aos-delay="300" data-aos-duration="1000" data-aos="zoom-in" class="airbnbButton buttons" src="./img/airbnb_button.png" alt="">
+                </div> 
+            </div>
+        </section>
+
+        <section id="contacto">
+            <img class="blueStreet" src="./img/blueStreet.png" alt="">
+            <div class="contentContact">
+                <h2 data-aos="fade-in"  data-aos-duration="1000">Contacto</h2>
+                <form data-aos="fade-in" data-aos-delay="500" data-aos-duration="1000" name="contactForm" id="contactForm" action="" method="post">
+                    <input placeholder="Nombre"  type="text" id="nombre" name="nombre" required>
+            
+                    <div class="contactosContact">
+                        <input placeholder="Email"  id="ContactEmail" type="email" id="email" name="email" required>
+                
+                        <input placeholder="Teléfono"  id="ContactTel" type="tel" id="telefono" name="telefono">
+                    </div>
+
+                    <input placeholder="Servicio"  type="text" id="servicio" name="servicio" required>
+            
+                    <textarea placeholder="Mensaje"  id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                    <button class="button-80" role="button" type="submit">Enviar</button>
+                </form>
+                <div class="contactMethods">
+                    <p data-aos="flip-up" data-aos-delay="300" data-aos-duration="500"  data-aos-anchor-placement="bottom"><span><img src="./img/wpp.png" alt=""></span>12345678</p>
+                    <p data-aos="flip-up" data-aos-duration="500" data-aos-delay="600" data-aos-anchor-placement="bottom"><span><img src="./img/ubi.png" alt=""></span>Escultor José Capuz 35 Mont Olivet Valencia Capital</p>
+                    <p data-aos="flip-up" data-aos-duration="500" data-aos-delay="900" data-aos-anchor-placement="bottom"><span><img src="./img/ig.png" alt=""></span>@thebossmanagement</p>
+                    <p data-aos="flip-up" data-aos-duration="500" data-aos-delay="1200" data-aos-anchor-placement="bottom"><span><img src="./img/mail.png" alt=""></span>info@thebossmanagement.org</p>
+                </div>
+            </div>
+
+            
+            
+        </section>
+
+
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./script/main.js"></script> 
+	</body>
+
+</html>
