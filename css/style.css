@@ -22,14 +22,22 @@ a{
 	/* Opcionalmente, puedes agregar formatos adicionales aquí */
 }
 
-
+@font-face {
+    font-family: "AcuminProCond-Bold";
+    src: url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.eot");
+    src: url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/48dbe0690211cf4c556d4311108d6cf1.svg#AcuminProCond-Bold")format("svg");
+}
 
 
 
 nav{
     
     width: 100vw;
-    height: 5em;
+    height: 6em;
     position: fixed;
     top: 0;
     left: 0;
@@ -120,10 +128,37 @@ nav{
 
 .wrappedItems a{
     margin: 2% 0%;
-    font-family: 'Acumin';
+    font-family: 'AcuminProCond-Bold';
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+    margin: 0% 3%;
+    justify-content: center;
+    flex: 1;
+}
+.idiomas a img{
+    width: 0.9em;
+    height: 0.9em;
+    
+    
+}
+.idiomas a{
+    display: flex;
+    align-items: center;
+}
+
+.wrappedItems .idiomas{
+    width: auto;
+    margin: 2% 0%;
+}
+
+.wrappedItems .idiomas a{
+    margin: 0% 5%;
 }
 
 .logo img{
@@ -145,17 +180,18 @@ nav{
 .items{
     align-items: center;
     display: flex;
-    width: 25%;
+    justify-content: center;
+    width: 42%;
     text-align: center;
 }
 
 nav .items a{
-    flex: 1;
+    letter-spacing: 0.2ch;
     color: black;
-    margin: 0% 1%;
-    font-family: 'Acumin';
+    margin: 0% 3%;
+    font-family: 'AcuminProCond-Bold';
     color: #a17818;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -646,7 +682,7 @@ form *:focus-visible{
 
 @media (max-width: 1500px) {
     .items{
-        width: 30%;
+        
         
     }
 
@@ -744,6 +780,11 @@ form *:focus-visible{
     .contactMethods p, .contactMethods a p {
         font-size: 1.2em;
     }
+    nav .items a {
+        
+        font-size: 1.5rem;
+        
+    }
     
 }
 
@@ -779,13 +820,10 @@ form *:focus-visible{
         left: 0%;
         width: 30rem;
     }
-    .items{
-        width: 40%;
-        
-    }
+    
 
     nav .items a{
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     .logo h1{
@@ -806,9 +844,10 @@ form *:focus-visible{
         width: 41em;
     }
 
-    
+    .items {
+        width: 50%;
+    }
   }
-
   @media (max-width: 1000px) {
     .swiper{
         height: 90vh;
@@ -1104,9 +1143,9 @@ form *:focus-visible{
   @media (max-width: 550px) {
     .wrappedItems a{
         margin: 2% 0%;
-        font-family: 'Acumin';
+        
         color: white;
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 600;
     }
     .mantenimiento {
