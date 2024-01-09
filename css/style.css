@@ -139,7 +139,7 @@ nav{
     align-items: center;
     margin: 0% 3%;
     justify-content: center;
-    flex: 1;
+    
 }
 .idiomas a img{
     width: 0.9em;
@@ -150,6 +150,7 @@ nav{
 .idiomas a{
     display: flex;
     align-items: center;
+    margin: 0% 2%;
 }
 
 .wrappedItems .idiomas{
@@ -169,7 +170,7 @@ nav{
 
 .logo h1{
     font-family:'Acumin';
-    color: #d0a940;
+    color: #816014;
     font-weight: 400;
 }
 
@@ -180,7 +181,7 @@ nav{
 .items{
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     width: 42%;
     text-align: center;
 }
@@ -190,8 +191,8 @@ nav .items a{
     color: black;
     margin: 0% 3%;
     font-family: 'AcuminProCond-Bold';
-    color: #a17818;
-    font-size: 1.7rem;
+    color: #816014;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -278,7 +279,7 @@ nav .items a{
 }
 
 .paintingGuy{
-    /* height: 95%; */
+    height: 95%; 
     width:38em;
     object-fit: contain;
     position: absolute;
@@ -782,7 +783,7 @@ form *:focus-visible{
     }
     nav .items a {
         
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         
     }
     
